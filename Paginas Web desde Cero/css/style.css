@@ -1,0 +1,106 @@
+/*  Comentario en CSS */
+html {
+    border: 0;
+}
+
+body {
+    background: rgb(197, 203, 203);
+    border: 0;
+}
+/* Las clases asignadas deben de empezar con un punto
+   Ejemplo: .seccion-text{} */
+
+.seccion-titulo {
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem 1rem;
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 1rem;
+}
+
+.text{
+    text-align: center;
+    color: black; 
+    background-color: transparent;
+    font-size: 1rem;
+    font-family: 'Roboto Mono', monospace;
+    margin: 1rem;
+}
+
+.container {
+        width: 400px;
+        margin: 0 auto;
+}
+
+.secction-dev {
+    transition: box-shadow 0.4s  ease;
+    background-color: #fff;
+    margin: 1rem 0;
+    border-radius: 1rem;
+    padding: 0.20rem 0;
+    cursor: pointer;
+}
+
+.secction-dev:hover{
+    box-shadow: 0 0.2rem 0.4rem rgba(0,0,0,0.30);
+}
+
+.dev{
+    width: 500;
+    text-align: center;
+}
+
+.ime{
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    border-radius: 1rem;
+    display: block;
+    cursor: pointer;
+}
+
+.ime:hover{
+    box-shadow: 0 0.2rem 0.5rem rgba(0,0,0,0.30);
+}
+
+.secction-pie{
+    padding: 1.5rem 1.5rem;
+    color: white;
+    background-color: black;
+    border-radius: 1rem;
+    font-size: 1rem;
+    text-align: right;
+
+}
+
+/* Seccion pie de pagina */
+
+footer {
+    background-color: black;
+    padding: 3rem;
+    color: #fff;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    border-radius: 2rem;
+}
+
+footer section {
+    float: right;
+    font-size: 1.5rem;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+footer a {
+    transition: color 0.3s ease;
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color:cornflowerblue;
+}
