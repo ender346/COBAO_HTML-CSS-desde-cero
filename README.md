@@ -9,3 +9,4 @@ Este repositorio encontraras código (Documentación y ejemplos, etc...) de HTML
              <br>CSS:https://developer.mozilla.org/es/docs/Web/CSS
              <br>CDN:https://cdnjs.com/
              <br>Tailwindcss:https://tailwindcss.com/
+             <br><center>Pronto se agregaran mas ajemplos....</center>
